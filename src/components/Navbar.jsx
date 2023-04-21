@@ -16,11 +16,22 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className='hidden md:flex font-bold'>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+          HOME
+          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+        </li>
+        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+          SKILLS
+          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+        </li>
+        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+          WORK
+          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+        </li>
+        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+          CONTACT
+          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -31,7 +42,6 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#01161E] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl font-bold'>HOME</li>
-        <li className='py-6 text-4xl font-bold'>ABOUT</li>
         <li className='py-6 text-4xl font-bold'>SKILLS</li>
         <li className='py-6 text-4xl font-bold'>WORK</li>
         <li className='py-6 text-4xl font-bold'>CONTACT</li>
