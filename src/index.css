@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+CSS HEX
+--rich-black: #01161E;
+--midnight-green: #124559;
+--air-force-blue: #598392;
+--ash-gray: #AEC3b0;
+--beige: #Eff6E0; 
+--logo-orange: #FF7373;
+*/
 
 @layer base {
   body {
