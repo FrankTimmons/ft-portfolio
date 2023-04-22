@@ -9,28 +9,28 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#01161E] text-[#F2E3DB]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary text-beige'>
       <div>
         <img src={Logo} alt="logo" style={{width:'50px'}}/>
       </div>
 
       {/* Menu */}
       <ul className='hidden md:flex font-bold'>
-        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+        <li className='group flex flex-col items-center hover:text-logo'>
           HOME
-          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+          <div className='bg-primary group-hover:bg-logo flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
         </li>
-        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+        <li className='group flex flex-col items-center hover:text-logo'>
           SKILLS
-          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+          <div className='bg-primary group-hover:bg-logo flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
         </li>
-        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+        <li className='group flex flex-col items-center hover:text-logo'>
           WORK
-          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+          <div className='bg-primary group-hover:bg-logo flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
         </li>
-        <li className='group flex flex-col items-center hover:text-[#FF7373]'>
+        <li className='group flex flex-col items-center hover:text-logo'>
           CONTACT
-          <div className='bg-[#01161E] group-hover:bg-[#FF7373] flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
+          <div className='bg-primary group-hover:bg-logo flex w-[8px] h-[8px] rounded-[4px] duration-200 mt-1'></div>
         </li>
       </ul>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#01161E] flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'md:hidden absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl font-bold'>HOME</li>
         <li className='py-6 text-4xl font-bold'>SKILLS</li>
         <li className='py-6 text-4xl font-bold'>WORK</li>
@@ -51,17 +51,17 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
-            <a className='flex justify-between items-center w-full text-[#EFF6E0] font-bold' href="https://www.linkedin.com/in/frank-timmons-pdx/">
+            <a className='flex justify-between items-center w-full text-beige font-bold' href="https://www.linkedin.com/in/frank-timmons-pdx/">
               LINKEDIN <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]'>
-            <a className='flex justify-between items-center w-full text-[#EFF6E0] font-bold' href="https://github.com/FrankTimmons">
+            <a className='flex justify-between items-center w-full text-beige font-bold' href="https://github.com/FrankTimmons">
               GITHUB <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BB001B]'>
-            <a className='flex justify-between items-center w-full text-[#EFF6E0] font-bold' href="mailto: franktimmonspdx@gmail.com">
+            <a className='flex justify-between items-center w-full text-beige font-bold' href="mailto: franktimmonspdx@gmail.com">
               EMAIL <HiOutlineMail size={30}/>
             </a>
           </li>
