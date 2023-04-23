@@ -17,7 +17,7 @@ const Work = () => {
             className='shadow-lg shadow-primary group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl rounded-lg px-4 py-3 m-2 bg-secondary text-beige font-bold'>
+              <span className='text-3xl rounded-lg px-4 py-3 m-2 bg-secondary text-beige font-bold'>
                 Grind Time
               </span>
               <div className='pt-8'>
@@ -39,7 +39,7 @@ const Work = () => {
             className='shadow-lg shadow-primary group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl rounded-lg px-4 py-3 m-2 bg-secondary text-beige font-bold'>
+              <span className='text-3xl rounded-lg px-4 py-3 m-2 bg-secondary text-beige font-bold'>
                 Gunpla Store
               </span>
               <div className='pt-8'>
