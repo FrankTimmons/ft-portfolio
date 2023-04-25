@@ -41,10 +41,10 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <ul className={!nav ? 'hidden' : 'md:hidden absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl font-bold'>HOME</li>
-        <li className='py-6 text-4xl font-bold'>SKILLS</li>
-        <li className='py-6 text-4xl font-bold'>WORK</li>
-        <li className='py-6 text-4xl font-bold'>CONTACT</li>
+        <li className='py-6 text-4xl font-bold hover:text-logo duration-200'>HOME</li>
+        <li className='py-6 text-4xl font-bold hover:text-logo duration-200'>SKILLS</li>
+        <li className='py-6 text-4xl font-bold hover:text-logo duration-200'>WORK</li>
+        <li className='py-6 text-4xl font-bold hover:text-logo duration-200'>CONTACT</li>
       </ul>
 
       {/* Social Icons */}
