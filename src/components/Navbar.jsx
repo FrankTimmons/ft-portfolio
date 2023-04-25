@@ -76,18 +76,23 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
-            <a className='flex justify-between items-center w-full text-beige font-bold' href="https://www.linkedin.com/in/frank-timmons-pdx/">
+            <a target='blank' className='flex justify-between items-center w-full text-beige font-bold' href="https://www.linkedin.com/in/frank-timmons-pdx/">
               LINKEDIN <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]'>
-            <a className='flex justify-between items-center w-full text-beige font-bold' href="https://github.com/FrankTimmons">
+            <a target='blank' className='flex justify-between items-center w-full text-beige font-bold' href="https://github.com/FrankTimmons">
               GITHUB <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BB001B]'>
-            <a className='flex justify-between items-center w-full text-beige font-bold' href="mailto: franktimmonspdx@gmail.com">
+            <a target='blank' className='flex justify-between items-center w-full text-beige font-bold' href="mailto: franktimmonspdx@gmail.com">
               EMAIL <HiOutlineMail size={30}/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0da36a]'>
+            <a target='blank' className='flex justify-between items-center w-full text-beige font-bold' href="https://www.canva.com/design/DAFM5OT8Yfw/x_4Hh42MxGszfokSNnuMLw/view?utm_content=DAFM5OT8Yfw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+              RESUME <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
         </ul>
