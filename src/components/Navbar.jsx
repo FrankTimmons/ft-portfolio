@@ -129,42 +129,45 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]">
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full text-beige font-bold"
-              href="https://www.linkedin.com/in/frank-timmons-pdx/"
-            >
+          <a
+            target="blank"
+            className="block w-full text-beige font-bold"
+            href="https://www.linkedin.com/in/frank-timmons-pdx/"
+          >
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]">
               LINKEDIN <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]">
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full text-beige font-bold"
-              href="https://github.com/FrankTimmons"
-            >
+            </li>
+          </a>
+          <a
+            target="blank"
+            className="block w-full text-beige font-bold"
+            href="https://github.com/FrankTimmons"
+          >
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]">
               GITHUB <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BB001B]">
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full text-beige font-bold"
-              href="mailto: franktimmonspdx@gmail.com"
-            >
+            </li>
+          </a>
+          <Link
+            onClick={handleClick}
+            activeClass="active"
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="block w-full text-beige font-bold"           
+          >
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BB001B]">
               EMAIL <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0da36a]">
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full text-beige font-bold"
-              href="https://www.canva.com/design/DAFM5OT8Yfw/x_4Hh42MxGszfokSNnuMLw/view?utm_content=DAFM5OT8Yfw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-            >
+            </li>
+          </Link>
+          <a
+            target="blank"
+            className="block w-full text-beige font-bold"
+            href="https://drive.google.com/file/d/17YfL78aNl57Vp0v-PhqZwwX1K7dqSIbm/view?usp=sharing"
+          >
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0da36a]">
               RESUME <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
+            </li>
+          </a>
         </ul>
       </div>
     </div>
