@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-secondary">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <h1 className="text-6xl sm:text-7xl font-bold text-beige">
+      <div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full">
+        <h1 className="text-6xl sm:text-7xl xxs:text-4xl xs:text-5xl font-bold text-beige">
           Frank Timmons
         </h1>
-        <h2 className="text-6xl sm:text-7xl font-bold text-ash-gray">
+        <h2 className="text-6xl sm:text-7xl xxs:text-4xl xs:text-5xl font-bold text-ash-gray">
           Full Stack Web-Developer
         </h2>
         <p className="text-ash-gray py-4 max-w-[700px] font-semibold text-lg">
@@ -23,7 +23,7 @@ const Home = () => {
         </p>
         <div>
           <Link
-            className="block"
+            className="block w-[156px]"
             activeClass="active"
             to="work"
             smooth={true}
