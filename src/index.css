@@ -6,9 +6,9 @@
 CSS HEX
 --primary: #01161E;
 --secondary: #124559;
---light-blue: #598392;
---ash-gray: #AEC3b0;
---beige: #Eff6E0; 
+--light-text: #598392;
+--secondary-text: #AEC3b0;
+--primary-text: #Eff6E0; 
 --logo: #FF7373;
 */
 
@@ -21,21 +21,4 @@ CSS HEX
     @apply px-4;
     @apply cursor-pointer;
   }
-}
-
-.content-div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-}
-
-.content-div:hover {
-  background-image: repeating-linear-gradient(
-    -45deg,
-    #EE9B00,
-    #EE9B00 50px,
-    #CA6702 50px,
-    #CA6702 100px
-  )!important;
 }

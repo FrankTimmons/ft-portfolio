@@ -8,19 +8,31 @@ module.exports = {
   ],
   theme: {
     screens:{
+      'bgSquig': '1400px',
       'xxs': '200px',
       'xs': '400px',
       ...defaultTheme.screens,
     },
     colors: {
-      'primary': '#001219',
-      'secondary': '#005f73',
-      'light-blue': '#0a9396',
-      'ash-gray': '#94d2bd',
-      'beige': '#e9d8a6',
+      ...defaultTheme.colors,
+      'primary': '#000',
+      'secondary': '#fff',
+      'light-text': '#fff',
+      'secondary-text': '#202020',
+      'primary-text': '#000',
       'logo': '#ca6702',
+      'red': '#D00000',
+      'yellow': '#FFBA08',
+      'light-blue': '#3F88C5',
+      'blue': '#032B43',
+      'green': '#136F63'
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'squiggly': "url('/src/assets/Squiggly.png')",
+        'dots': "url('/src/assets/Dots.png')",
+      }
+    },
   },
   plugins: [],
 }
