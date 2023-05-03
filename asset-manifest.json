@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ft-portfolio/static/css/main.34100dc8.css",
-    "main.js": "/ft-portfolio/static/js/main.0b54177b.js",
+    "main.css": "/ft-portfolio/static/css/main.f3d7984c.css",
+    "main.js": "/ft-portfolio/static/js/main.8af72a5f.js",
     "static/media/gunplastore.png": "/ft-portfolio/static/media/gunplastore.670d9321dbe5ccfe7485.png",
     "static/media/Squiggly.png": "/ft-portfolio/static/media/Squiggly.5bd1952d5226b201de53.png",
     "static/media/Shapes.png": "/ft-portfolio/static/media/Shapes.edd2decb7299be65e2c4.png",
@@ -18,11 +18,11 @@
     "static/media/firebase.png": "/ft-portfolio/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/ft-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ft-portfolio/index.html",
-    "main.34100dc8.css.map": "/ft-portfolio/static/css/main.34100dc8.css.map",
-    "main.0b54177b.js.map": "/ft-portfolio/static/js/main.0b54177b.js.map"
+    "main.f3d7984c.css.map": "/ft-portfolio/static/css/main.f3d7984c.css.map",
+    "main.8af72a5f.js.map": "/ft-portfolio/static/js/main.8af72a5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.34100dc8.css",
-    "static/js/main.0b54177b.js"
+    "static/css/main.f3d7984c.css",
+    "static/js/main.8af72a5f.js"
   ]
 }
