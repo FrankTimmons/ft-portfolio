@@ -31,6 +31,7 @@ module.exports = {
       backgroundImage: {
         'squiggly': "url('/src/assets/Squiggly.png')",
         'dots': "url('/src/assets/Dots.png')",
+        'shapes': "url('/src/assets/Shapes.png')",
       }
     },
   },

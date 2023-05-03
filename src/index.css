@@ -22,3 +22,24 @@ CSS HEX
     @apply cursor-pointer;
   }
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #D00000,
+    #D00000 50px,
+    #FFBA08 50px,
+    #FFBA08 100px,
+    #136F63 100px,
+    #136F63 150px,
+    #3F88C5 150px,
+    #3F88C5 200px
+  )!important;
+}
